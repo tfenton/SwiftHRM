@@ -13,6 +13,8 @@
 		CE20266D1A661272002E57D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE20266C1A661272002E57D2 /* Images.xcassets */; };
 		CE2026701A661272002E57D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE20266E1A661272002E57D2 /* LaunchScreen.xib */; };
 		CE20267C1A661272002E57D2 /* SwiftHRMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE20267B1A661272002E57D2 /* SwiftHRMTests.swift */; };
+		CE2026861A661336002E57D2 /* BTLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2026851A661336002E57D2 /* BTLE.swift */; };
+		CE2026881A68BEF3002E57D2 /* heart_rate.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2026871A68BEF3002E57D2 /* heart_rate.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		CE2026751A661272002E57D2 /* SwiftHRMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftHRMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE20267A1A661272002E57D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE20267B1A661272002E57D2 /* SwiftHRMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftHRMTests.swift; sourceTree = "<group>"; };
+		CE2026851A661336002E57D2 /* BTLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTLE.swift; sourceTree = "<group>"; };
+		CE2026871A68BEF3002E57D2 /* heart_rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart_rate.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +84,9 @@
 				CE2026651A661272002E57D2 /* AppDelegate.swift */,
 				CE2026671A661272002E57D2 /* ViewController.swift */,
 				CE2026691A661272002E57D2 /* Main.storyboard */,
+				CE2026851A661336002E57D2 /* BTLE.swift */,
 				CE20266C1A661272002E57D2 /* Images.xcassets */,
+				CE2026871A68BEF3002E57D2 /* heart_rate.png */,
 				CE20266E1A661272002E57D2 /* LaunchScreen.xib */,
 				CE2026631A661272002E57D2 /* Supporting Files */,
 			);
@@ -192,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2026881A68BEF3002E57D2 /* heart_rate.png in Resources */,
 				CE20266B1A661272002E57D2 /* Main.storyboard in Resources */,
 				CE2026701A661272002E57D2 /* LaunchScreen.xib in Resources */,
 				CE20266D1A661272002E57D2 /* Images.xcassets in Resources */,
@@ -214,6 +221,7 @@
 			files = (
 				CE2026681A661272002E57D2 /* ViewController.swift in Sources */,
 				CE2026661A661272002E57D2 /* AppDelegate.swift in Sources */,
+				CE2026861A661336002E57D2 /* BTLE.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
